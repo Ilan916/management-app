@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Salles</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Site de Réservation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="materiel.html">Matériel</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576073460027-794a4ab09b12?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Salle de Réunion">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle 3</h5>
+                        <p class="card-text">Cette salle spacieuse est idéale pour les grandes réunions et conférences, équipée de tous les outils nécessaires pour un événement réussi.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reservationModal">Réserver la salle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576073460027-794a4ab09b12?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Salle de Réunion">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle 1</h5>
+                        <p class="card-text">Parfaite pour des réunions plus intimes, cette salle offre un environnement confortable et professionnel pour vos discussions importantes.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reservationModal">Réserver la salle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576073460027-794a4ab09b12?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Salle de Réunion">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle 5</h5>
+                        <p class="card-text">Une salle moderne équipée des dernières technologies pour garantir une expérience de réunion fluide et productive.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reservationModal">Réserver la salle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576073460027-794a4ab09b12?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Salle de Réunion">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle 2</h5>
+                        <p class="card-text">Idéale pour des sessions de formation, cette salle est équipée pour accueillir des présentations et des ateliers interactifs.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reservationModal">Réserver la salle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576073460027-794a4ab09b12?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Salle de Réunion">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle 6</h5>
+                        <p class="card-text">Conçue pour les réunions de conseil, cette salle offre un cadre professionnel avec tout le confort nécessaire pour des discussions stratégiques.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reservationModal">Réserver la salle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576073460027-794a4ab09b12?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Salle de Réunion">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle 4</h5>
+                        <p class="card-text">Parfaite pour des brainstormings créatifs, cette salle inspire collaboration et innovation.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#reservationModal">Réserver la salle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reservationModalLabel">Réserver la Salle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="reservationDate">Sélectionner une date</label>
+                            <input type="text" class="form-control" id="reservationDate" placeholder="YYYY-MM-DD">
+                        </div>
+                        <div class="form-group">
+                            <label for="equipmentList">Matériel de salle de réunion</label>
+                            <div id="equipmentList">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="equipment1">
+                                    <label class="form-check-label" for="equipment1">
+                                        Câble HDMI
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="equipment2">
+                                    <label class="form-check-label" for="equipment2">
+                                        Tableau
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="equipment3">
+                                    <label class="form-check-label" for="equipment3">
+                                        Projecteur
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="equipment4">
+                                    <label class="form-check-label" for="equipment4">
+                                        Chaise supplémentaire
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Valider</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
